@@ -3,9 +3,30 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Drag & Drop</title>
+  <link rel="stylesheet" href="./styles/index.css">
 </head>
 <body>
-  
+  <main>
+    <div>
+      <h1>TODO</h1>
+      <ul container-drop class="container">
+        <li object-drag draggable="true">Tarea 1</li>
+        <li object-drag draggable="true">Tarea 2</li>
+        <li object-drag draggable="true">Tarea 3</li>
+        <li object-drag draggable="true">Tarea 4</li>
+        <li object-drag draggable="true">Tarea 5</li>
+      </ul>
+    </div>
+    
+    <div>
+      <h1>REVIEW</h1>
+      <ul container-drop class="container">
+    
+      </ul>
+    </div>
+  </main>
+
+  <script type="module" src="./scripts/index.js"></script>
 </body>
 </html>
